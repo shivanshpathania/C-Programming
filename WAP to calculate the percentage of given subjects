@@ -1,0 +1,22 @@
+// write a program to calculate the percentage of 5 subjects marks  entered by user: 
+#include<stdio.h>
+int main()
+{
+    float s1,s2,s3,s4,s5;
+    printf("Enter the marks of subject 1:");
+    scanf("%f",&s1);
+    printf("Enter the marks of subject 2:");
+    scanf("%f",&s2);
+    printf("Enter the marks of subject 3:");
+    scanf("%f",&s3);
+    printf("Enter the marks of subject 4:");
+    scanf("%f",&s4);
+    printf("Enter the marks of subject 5:");
+    scanf("%f",&s5);
+    float percentage;
+    percentage=(s1+s2+s3+s4+s5)/500*100;
+    printf("%f",percentage);
+    return 0;
+
+
+}
