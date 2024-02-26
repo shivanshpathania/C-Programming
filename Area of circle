@@ -1,0 +1,12 @@
+// WAP to calculate the area of the circle
+#include<stdio.h>
+int main()
+{
+    float r=5;
+    printf("Enter the radius:");
+    scanf("%f",&r);
+    float result=3.14*r*r;
+    printf("the area of the circle is :%f",result);
+    return 0;
+
+}
