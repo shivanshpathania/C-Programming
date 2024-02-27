@@ -1,0 +1,12 @@
+// write a program to print a table 
+#include<stdio.h>
+int main(){
+    int n; // initilize variable
+    printf("enter the numnber:");
+    scanf("%d",&n);
+    for(int i=1;i<=10;i++){ // loop will start from i=1 till upto 10 untill condition fails 
+        printf("%d * %d = %d\n",n,i,n*i); // this print statement will print the table 
+    }
+        
+    return 0;
+}
