@@ -1,0 +1,25 @@
+// write a code to check the greatest  among three number
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter the first number:");
+    scanf("%d", &a);
+    printf("Enter the second number:");
+    scanf("%d", &b);
+    printf("Enter the third number:");
+    scanf("%d", &c);
+    if (a > b && b > c)
+    {
+        printf("A is  the greatest number %d", a);
+    }
+    else if (b > a && b > c)
+    {
+        printf("B is the greatest mumber %d", b);
+    }
+    else
+    {
+        printf("C is the greatest number %d", c);
+    }
+    return 0;
+}
