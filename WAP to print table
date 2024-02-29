@@ -5,7 +5,7 @@ int main(){
     printf("enter the numnber:");
     scanf("%d",&n);
     for(int i=1;i<=10;i++){ // loop will start from i=1 till upto 10 untill condition fails 
-        printf("%d * %d = %d\n",n,i,n*i); // this print statement will print the table 
+        printf("%d * %d = %d\n",n,i,n*i); // this print statement will print the table as condtion become true
     }
         
     return 0;
