@@ -1,0 +1,14 @@
+//write a code to print startriangle
+#include<stdio.h>
+int main (){
+    int n; // initialize the variable
+    printf("Enter the number of rows/lines:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){ // outer loop for how many lines to print represent i
+        for(int j=1;j<=i;j++){ // inner loop for what to print represent j
+            printf("* ");// here in case i loop will remain continue till upto n but j loop will only rum once for i =1 after that again i becomes two then again j will be one then it incerses value  
+        }
+        printf("\n");
+    }
+    return 0;
+}
