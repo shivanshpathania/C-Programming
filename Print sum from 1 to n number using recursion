@@ -1,0 +1,16 @@
+#wap to print sum from 1 to n number using recursion
+#include<stdio.h>
+void print(int x,int sum){
+    if(x==0){
+        printf("%d",sum);
+        return;
+}
+    print(x-1,sum+x);
+}
+int main(){
+    int n,sum;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    print(n,0);
+    return 0;
+}
